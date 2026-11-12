@@ -1,0 +1,533 @@
+<title>Winning.ma</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InVwIiB4MT0iMTI0IiB5MT0iMTQwIiB4Mj0iMTYwIiB5Mj0iNDQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZjNmMWVjIi8+PHN0b3Agb2Zmc2V0PSIuNTUiIHN0b3AtY29sb3I9IiNmZjhhM2QiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZjRiM2UiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9Imdsb3ciIGN4PSIxNjAiIGN5PSI0NiIgcj0iMzQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmY0YjNlIiBzdG9wLW9wYWNpdHk9Ii41NSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmNGIzZSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjQ2IiBmaWxsPSIjMGIwZDE0Ii8+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2E0MTU3IiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMzAgNThWMzZoMjJNMzAgMTQydjIyaDIyTTE0OCAxNjRoMjJ2LTIyIi8+CiAgPC9nPgogIDxjaXJjbGUgY3g9IjE2MCIgY3k9IjQ2IiByPSIzNCIgZmlsbD0idXJsKCNnbG93KSIvPgogIDxwb2x5bGluZSBwb2ludHM9IjQyLDc0IDY2LDE0MCA5NSw5NiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjNmMWVjIiBzdHJva2Utd2lkdGg9IjE5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cG9seWxpbmUgcG9pbnRzPSI5NSw5NiAxMjQsMTQwIiBmaWxsPSJub25lIiBzdHJva2U9IiNmM2YxZWMiIHN0cm9rZS13aWR0aD0iMTkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwb2x5bGluZSBwb2ludHM9IjEyNCwxNDAgMTU2LDUyIiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjdXApIiBzdHJva2Utd2lkdGg9IjE5IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cG9seWxpbmUgcG9pbnRzPSI2NiwxNDAgOTUsOTYgMTI0LDE0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjNmMWVjIiBzdHJva2Utd2lkdGg9IjE5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSI0NCIgcj0iMTUiIGZpbGw9IiNmZjRiM2UiLz4KPC9zdmc+Cg==">
+<meta name="description" content="فيديوهات إعلانية كتبيع — 3 فيديوهات بـ 299 درهم">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500;700;900&family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: a video editor's world — REC light, timecodes, timeline tracks; one dark "studio" look, single theme by choice */
+:root{
+  --ink:#0b0d14;        /* studio black-blue */
+  --panel:#141824;      /* editor panel */
+  --edge:#262c3d;       /* hairlines */
+  --text:#f3f1ec;       /* warm white */
+  --mute:#9097a8;       /* secondary text */
+  --rec:#ff4b3e;        /* REC red — the accent */
+  --gold:#ffc24a;       /* highlight / win */
+  --wa:#25d366;
+  --display:"Alexandria","IBM Plex Sans Arabic",system-ui,sans-serif;
+  --body:"IBM Plex Sans Arabic",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;direction:rtl}
+body{background:var(--ink);color:var(--text);font-family:var(--body);font-size:17px;line-height:1.7;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--ink)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3,h4{font-family:var(--display);text-wrap:balance;line-height:1.25}
+.tc{font-family:var(--mono);direction:ltr;unicode-bidi:isolate;font-variant-numeric:tabular-nums}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+/* ambient: film grain + slow light leak */
+.leak{position:fixed;inset:-20%;z-index:-2;background:radial-gradient(40% 35% at 80% 10%,#ff4b3e2e,transparent 70%),radial-gradient(35% 30% at 10% 80%,#ffc24a1f,transparent 70%);animation:leak 22s ease-in-out infinite alternate}
+@keyframes leak{to{transform:translate(-6%,5%) rotate(4deg)}}
+.grain{position:fixed;inset:0;z-index:-1;opacity:.07;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:#0b0d14d9;backdrop-filter:blur(14px);border-bottom:1px solid var(--edge)}
+header .wrap{position:relative;display:flex;align-items:center;justify-content:flex-start;gap:16px;height:66px}
+header .logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:900;font-size:24px;direction:ltr}
+.logo i{width:12px;height:12px;border-radius:50%;background:var(--rec);box-shadow:0 0 14px var(--rec);animation:rec 1.4s infinite}
+.logo span{color:var(--mute);font-weight:500}
+@keyframes rec{50%{opacity:.25}}
+.hcta{font-weight:700;font-size:15px;padding:9px 20px;border-radius:999px;background:var(--rec);color:#fff;transition:.25s}
+.hcta:hover{background:#ff6a5e}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding-block:64px 40px}
+.hero>div{min-width:0}
+.recpill{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:13px;letter-spacing:.08em;color:var(--rec);border:1px solid #ff4b3e55;background:#ff4b3e12;padding:6px 14px;border-radius:999px;direction:ltr}
+.recpill i{width:8px;height:8px;border-radius:50%;background:var(--rec);animation:rec 1.2s infinite}
+h1{font-size:clamp(36px,5.4vw,64px);font-weight:900;margin:22px 0 18px}
+h1 em{font-style:normal;color:var(--rec);position:relative;white-space:nowrap}
+h1 em::after{content:"";position:absolute;inset:auto 0 -4px;height:6px;border-radius:6px;background:var(--rec);opacity:.35;transform-origin:right;animation:draw 1.2s .6s both cubic-bezier(.7,0,.2,1)}
+@keyframes draw{from{transform:scaleX(0)}}
+.swap{display:inline-grid;color:var(--gold)}
+.swap span{grid-area:1/1;animation:swap 9s infinite;opacity:0}
+.swap span:nth-child(2){animation-delay:3s}.swap span:nth-child(3){animation-delay:6s}
+@keyframes swap{0%{opacity:0;transform:translateY(.4em);filter:blur(6px)}6%,30%{opacity:1;transform:none;filter:none}36%,100%{opacity:0;transform:translateY(-.4em);filter:blur(6px)}}
+.lede{color:var(--mute);font-size:19px;max-width:34em;margin-bottom:30px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--rec);color:#fff;font-family:var(--display);font-weight:700;font-size:18px;padding:16px 30px;border-radius:14px;box-shadow:0 10px 30px #ff4b3e55;transition:transform .25s}
+.btn:hover{transform:translateY(-3px)}
+.btn::after{content:"";position:absolute;inset:0 auto 0 -60%;width:40%;background:linear-gradient(90deg,transparent,#ffffff70,transparent);transform:skewX(-20deg);animation:sweep 3.2s infinite}
+@keyframes sweep{to{left:130%}}
+.ghost{display:inline-flex;align-items:center;padding:16px 26px;border-radius:14px;border:1px solid var(--edge);font-weight:700;transition:.25s}
+.ghost:hover{border-color:var(--gold);color:var(--gold)}
+.facts{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:28px;color:var(--mute);font-size:15px}
+.facts b{color:var(--text)}
+
+/* hero visual: editor + phone */
+.studio{position:relative;padding:20px 0 0 60px}
+.editor{background:var(--panel);border:1px solid var(--edge);border-radius:20px;padding:16px;box-shadow:0 40px 90px #000b;transform:perspective(1200px) rotateY(8deg) rotateX(4deg);direction:ltr}
+.ebar{display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:12px;color:var(--mute);margin-bottom:12px}
+.ebar .dots{display:flex;gap:6px}.ebar .dots i{width:10px;height:10px;border-radius:50%;background:var(--edge)}
+.ebar .dots i:first-child{background:var(--rec)}
+.viewer{height:230px;border-radius:12px;position:relative;overflow:hidden;background:#07080d}
+.viewer video{position:absolute;top:0;height:100%}
+.viewer .vfill{left:0;width:100%;object-fit:cover;filter:blur(18px) brightness(.45);transform:scale(1.2)}
+.viewer .vmain{left:50%;transform:translateX(-50%);aspect-ratio:9/16;object-fit:cover;box-shadow:0 0 40px #000}
+.rend{position:absolute;top:10px;left:10px;display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:#fff;background:#0b0d14b3;padding:3px 8px;border-radius:6px}
+.rend i{width:7px;height:7px;border-radius:50%;background:var(--rec);animation:rec 1s infinite}
+.scene{position:absolute;inset:0;opacity:0;animation:scene 9s infinite}
+.scene:nth-child(2){animation-delay:3s}.scene:nth-child(3){animation-delay:6s}
+@keyframes scene{0%,2%{opacity:0;transform:scale(1.08)}6%,31%{opacity:1;transform:scale(1)}35%,100%{opacity:0}}
+.s1{background:radial-gradient(60% 80% at 30% 40%,#ff4b3e66,transparent),linear-gradient(135deg,#2a1420,#0b0d14)}
+.s2{background:radial-gradient(60% 80% at 70% 50%,#ffc24a55,transparent),linear-gradient(135deg,#1d1a10,#0b0d14)}
+.s3{background:radial-gradient(60% 80% at 50% 30%,#4ab5ff55,transparent),linear-gradient(135deg,#0f1a26,#0b0d14)}
+.scene b{position:absolute;inset:auto 16px 16px;text-align:center;font-family:var(--display);font-size:17px;direction:rtl;text-shadow:0 2px 10px #000}
+.scene .prod{position:absolute;left:50%;top:38%;width:70px;height:70px;margin:-35px;border-radius:18px;background:linear-gradient(145deg,#fff2,#fff05);border:1px solid #fff3;box-shadow:0 20px 40px #000a;animation:float 3s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px) rotate(4deg)}}
+.tracks{margin-top:14px;position:relative;display:grid;gap:7px}
+.track{height:24px;display:flex;gap:4px}
+.track span{border-radius:5px;font-family:var(--mono);font-size:10px;color:#0b0d14;padding:0 6px;line-height:24px;white-space:nowrap;overflow:hidden}
+.v span{background:#5e7bff}.v span:nth-child(2){background:#7d93ff}.v span:nth-child(3){background:#5e7bff}
+.a span{background:#2fbf8a}.t span{background:var(--gold)}
+.ruler{display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;color:var(--mute);margin-top:10px}
+.head{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--rec);left:0;box-shadow:0 0 10px var(--rec)}
+.head::before{content:"";position:absolute;top:-6px;left:-5px;border:6px solid transparent;border-top-color:var(--rec)}
+@keyframes play{to{left:100%}}
+.phone{position:absolute;right:-6px;bottom:-40px;width:150px;aspect-ratio:9/19;border-radius:28px;background:#000;border:5px solid #222838;overflow:hidden;box-shadow:0 30px 60px #000c;animation:bob 6s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-12px) rotate(-2deg)}}
+.phone .scene b{font-size:12px;inset:auto 8px 46px}
+.phone .order{position:absolute;inset:auto 10px 12px;background:var(--rec);text-align:center;font-family:var(--display);font-weight:700;font-size:11px;border-radius:8px;padding:6px}
+.phone .bar{position:absolute;top:8px;inset-inline:8px;height:2px;background:#fff3;border-radius:2px;overflow:hidden}
+.phone video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.phone .bar{z-index:2}
+.phone .bar i{display:block;height:100%;width:0;background:#fff}
+@keyframes prog{from{width:0}to{width:100%}}
+.chip{position:absolute;display:flex;align-items:center;gap:10px;background:#141824ee;border:1px solid var(--edge);border-radius:14px;padding:9px 13px;font-size:13px;backdrop-filter:blur(8px);box-shadow:0 14px 30px #0009;animation:bob 5s ease-in-out infinite}
+.chip svg{flex:none}
+.chip b{display:block;color:var(--gold);font-family:var(--mono);direction:ltr;text-align:right}
+.c1{top:0;left:0;animation-delay:-2s}.c2{bottom:30px;left:10px;animation-delay:-4s}
+
+.marq{direction:rtl;border-block:1px solid var(--edge);background:#ffffff04;overflow:hidden;padding-block:14px}
+.marq-in{display:flex;align-items:center}
+.marq-in b{flex:none;position:relative;z-index:1;background:var(--ink);font-family:var(--display);color:var(--rec);padding-right:max(16px,env(safe-area-inset-right,0px));padding-left:18px;box-shadow:-24px 0 24px -6px var(--ink)}
+.mtrack{flex:none;display:flex;width:max-content;animation:mq 45s linear infinite;color:var(--mute);font-weight:700;white-space:nowrap;will-change:transform}
+.mtrack span{display:inline-flex;align-items:center;gap:10px;padding-inline:17px}
+.mtrack span::before{content:"";flex:none;width:7px;height:7px;border-radius:50%;background:var(--rec)}
+@keyframes mq{to{transform:translateX(25%)}}
+/* sections */
+section{padding-block:72px}
+.eyebrow{font-family:var(--mono);font-size:13px;letter-spacing:.12em;color:var(--rec);direction:ltr;text-align:center}
+.h2{font-size:clamp(28px,4vw,44px);font-weight:900;text-align:center;margin:10px 0 12px}
+.sub{color:var(--mute);text-align:center;max-width:36em;margin:0 auto 44px}
+
+/* timeline of a winning ad (subject-specific) */
+.anatomy{background:var(--panel);border:1px solid var(--edge);border-radius:22px;padding:28px;overflow-x:auto}
+.atl{display:grid;grid-template-columns:3fr 5fr 14fr 8fr;gap:6px;min-width:640px;direction:rtl}
+.seg{border-radius:12px;padding:16px;min-height:150px;display:flex;flex-direction:column;gap:6px;direction:rtl;position:relative;overflow:hidden}
+.seg .tc{font-size:12px;opacity:.75}
+.seg h4{font-size:18px}
+.seg p{font-size:14px;opacity:.85;line-height:1.55}
+.seg1{background:#ff4b3e;color:#fff}.seg2{background:#2a3148}.seg3{background:#20263a}.seg4{background:var(--gold);color:#1a1405}
+.atl+.ruler{min-width:640px;margin-top:12px;direction:rtl}
+
+/* compare */
+.vs{display:grid;grid-template-columns:1.7fr 1fr;gap:20px;align-items:center}
+.side{border-radius:20px;padding:28px;border:1px solid var(--edge);background:var(--panel);min-width:0}
+.side h3{font-size:20px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.side ul{list-style:none;display:grid;gap:10px}
+.side li{display:flex;gap:10px;align-items:flex-start;color:#d6d8de}
+.side li svg{flex:none;margin-top:5px}
+.side:not(.good){opacity:.6;transform:scale(.94);filter:saturate(.3)}
+.side:not(.good) li{text-decoration:line-through;text-decoration-color:#9097a866;font-size:15px}
+.side.good{position:relative;padding:40px 36px;border:1.5px solid #ff4b3e;background:radial-gradient(80% 70% at 100% 0,#ff4b3e33,transparent 70%),linear-gradient(160deg,#2a1218,var(--panel) 70%);box-shadow:0 30px 80px #ff4b3e33,0 0 0 6px #ff4b3e14}
+.side.good h3{font-size:clamp(28px,3.6vw,40px);font-weight:900;margin-bottom:4px}
+.side.good .win-sub{color:#ffb3ab;margin-bottom:22px;font-weight:500}
+.side.good ul{gap:16px}
+.side.good li{font-size:clamp(17px,1.8vw,20px);font-weight:700;color:var(--text)}
+.side.good li svg{margin-top:4px}
+.win-badge{position:absolute;top:-14px;right:28px;font-family:var(--mono);font-size:12px;letter-spacing:.12em;background:var(--rec);color:#fff;padding:5px 14px;border-radius:999px;box-shadow:0 8px 20px #ff4b3e66;direction:ltr}
+
+/* work */
+.carousel{position:relative;max-width:1000px;margin-inline:auto}
+.reels{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:10px calc(50% - 150px) 18px;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+.reels::-webkit-scrollbar{display:none}
+.reels .reel{flex:0 0 300px;scroll-snap-align:center;transform:scale(.88);opacity:.55;transition:transform .45s cubic-bezier(.2,.8,.2,1),opacity .45s,border-color .3s}
+.reels .reel.cur{transform:scale(1);opacity:1;border-color:#ff4b3e88;box-shadow:0 24px 60px #ff4b3e22}
+.reels .reel:hover{transform:scale(.9)}.reels .reel.cur:hover{transform:scale(1.01)}
+.navb{position:absolute;top:50%;z-index:3;width:50px;height:50px;margin-top:-34px;border-radius:50%;display:grid;place-items:center;background:#141824ee;border:1px solid var(--edge);color:var(--text);cursor:pointer;transition:.25s}
+.navb:hover{border-color:var(--rec);background:var(--rec)}
+.navb:disabled{opacity:.25;cursor:default;background:#141824ee;border-color:var(--edge)}
+.navb.prev{left:4px}
+.navb.cue{left:calc(50% - 159px);right:auto;width:58px;height:58px;margin:-37px 0 0 -29px;background:var(--gold);border:0;color:#1a1405;box-shadow:0 10px 30px #ffc24a66;animation:cueback 1.4s ease-in-out infinite}
+.navb.cue svg{position:relative;z-index:1;stroke-width:3}
+.navb.cue .ring{position:absolute;inset:0;border-radius:50%;border:2px solid var(--gold);animation:cuering 1.4s ease-out infinite}
+.navb.cue:hover{background:#ffd36e}
+.navb.cue:disabled{display:none}
+.navb.cue.back{left:calc(50% + 159px);animation-name:cue}
+@keyframes cueback{0%,100%{transform:translateX(6px)}50%{transform:translateX(-8px)}}
+@keyframes cue{0%,100%{transform:translateX(-6px)}50%{transform:translateX(8px)}}
+@keyframes cuering{from{transform:scale(1);opacity:.9}to{transform:scale(1.7);opacity:0}}
+.dots2{display:flex;justify-content:center;gap:8px;margin-top:6px}
+.dots2 button{width:8px;height:8px;border-radius:8px;border:0;background:var(--edge);cursor:pointer;transition:.3s;padding:0}
+.dots2 button.cur{width:28px;background:var(--rec)}
+.swipe{display:none;text-align:center;color:var(--mute);font-size:14px;margin-top:10px}
+.swipe span{display:inline-block;animation:nudge 1.6s ease-in-out infinite}
+@keyframes nudge{50%{transform:translateX(-10px)}}
+.reel{aspect-ratio:9/16;max-width:100%;border-radius:22px;border:1px solid var(--edge);background:var(--panel);position:relative;overflow:hidden;transition:.35s}
+.reel:hover{transform:translateY(-6px);border-color:var(--rec)}
+.reel video{width:100%;height:100%;object-fit:cover;display:block}
+.reel .tag{position:absolute;top:12px;right:12px;font-size:13px;font-weight:700;background:#0b0d14cc;border:1px solid var(--edge);padding:3px 12px;border-radius:999px}
+.reel .tc{position:absolute;bottom:12px;left:12px;font-size:12px;color:var(--mute)}
+.reel .snd{position:absolute;inset:auto 12px 12px auto;display:flex;align-items:center;gap:8px;font:700 13px var(--body);color:#fff;background:#0b0d14cc;border:1px solid var(--edge);border-radius:999px;padding:7px 14px;cursor:pointer;backdrop-filter:blur(6px);transition:.25s}
+.reel .snd:hover{border-color:var(--rec)}
+.reel .snd.on{background:var(--rec);border-color:var(--rec)}
+.reel .snd:not(.on){animation:pingr 2s infinite}
+@keyframes pingr{0%{box-shadow:0 0 0 0 #ff4b3e99}70%{box-shadow:0 0 0 14px #ff4b3e00}100%{box-shadow:0 0 0 0 #ff4b3e00}}
+.reel video{cursor:pointer}
+.reel .empty{position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:10px;color:var(--mute);font-size:14px;text-align:center;padding:16px}
+.play{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;border:1px solid #ffffff40;background:#ffffff10}
+
+/* features */
+.feats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.feat{padding:24px;border-radius:18px;border:1px solid var(--edge);background:var(--panel);transition:.3s}
+.feat:hover{border-color:#ff4b3e88;transform:translateY(-4px)}
+.feat .ic{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;background:#ff4b3e1a;margin-bottom:14px}
+.feat h4{font-size:18px;margin-bottom:6px}
+.feat p{color:var(--mute);font-size:15px}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;counter-reset:s}
+.step{padding:26px;border-radius:18px;border:1px solid var(--edge);position:relative}
+.step .n{font-family:var(--mono);font-size:13px;color:var(--rec);direction:ltr;display:block;text-align:right;margin-bottom:8px}
+.step h4{font-size:19px;margin-bottom:6px}.step p{color:var(--mute);font-size:15px}
+
+/* proof */
+.proof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;text-align:center}
+.proof div{padding:26px 14px;border-radius:18px;background:#ffffff05;border:1px solid var(--edge);color:var(--mute)}
+.proof strong{display:block;font-family:var(--mono);font-size:clamp(30px,4vw,44px);color:var(--text);direction:ltr}
+
+/* price */
+.ticket{max-width:520px;margin-inline:auto;position:relative;border-radius:26px;padding:2px;overflow:hidden}
+.ticket::before{content:"";position:absolute;inset:-60%;background:conic-gradient(from 0deg,#ff4b3e,#ff8a3d,#ffc24a,transparent 45%,#ff4b3e);animation:spin 5s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.tin{position:relative;background:radial-gradient(90% 60% at 50% 0,#ff8a3d24,transparent 70%),#10131c;border-radius:24px;padding:38px 28px;text-align:center}
+.tin .lbl{font-family:var(--mono);font-size:13px;color:#ff9a4a;letter-spacing:.1em;direction:ltr}
+.amt{font-family:var(--display);font-weight:900;font-size:84px;line-height:1.1;margin:8px 0 2px;background:linear-gradient(90deg,#ff4b3e,#ff8a3d,#ffc24a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.amt small{-webkit-text-fill-color:var(--mute)}
+.amt small{font-size:24px;color:var(--mute)}
+.per{color:var(--mute)}
+.incl{list-style:none;display:grid;gap:10px;text-align:right;max-width:330px;margin:26px auto}
+.incl li{display:flex;gap:10px;align-items:center;padding-bottom:10px;border-bottom:1px dashed #ff8a3d2e}
+.btn.full{width:100%}
+.btn.warm{background:linear-gradient(90deg,#ff4b3e,#ff8a3d);box-shadow:0 10px 30px #ff8a3d55}
+.btn.gold{background:var(--gold);color:#1a1405;box-shadow:0 10px 30px #ffc24a55}
+.langs{margin:0 auto 24px;max-width:360px;padding:16px;border-radius:16px;background:#ffffff06;border:1px solid #ff8a3d33}
+.langs .lt{font-weight:700;font-size:15px;margin-bottom:10px}
+.lrow{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.lrow span{padding:7px 16px;border-radius:999px;font-weight:700;font-size:14px;color:#ffd9a8;background:linear-gradient(90deg,#ff4b3e26,#ffc24a26);border:1px solid #ff8a3d55}
+#offer{scroll-margin-top:70px}
+#offer.flash .ticket{animation:arrive 1.2s cubic-bezier(.2,.8,.2,1)}
+@keyframes arrive{0%{transform:scale(.94)}45%{transform:scale(1.03)}100%{transform:scale(1)}}
+.note{margin-top:14px;font-size:14px;color:var(--mute)}
+.note b{color:var(--gold)}
+
+/* faq */
+.faq{max-width:760px;margin-inline:auto;display:grid;gap:10px}
+details{border:1px solid var(--edge);border-radius:16px;background:var(--panel);padding:18px 22px}
+details[open]{border-color:#ff4b3e66}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;font-weight:700;font-size:17px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--rec);font-size:22px;line-height:1;transition:.25s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--mute);margin-top:10px}
+
+.final{text-align:center;border-radius:28px;border:1px solid var(--edge);padding:64px 20px;background:radial-gradient(60% 90% at 50% 0,#ff4b3e30,transparent 70%),var(--panel)}
+.final .h2{margin-top:0}
+footer{text-align:center;color:var(--mute);font-size:14px;padding-block:36px 120px}
+
+/* floating */
+.wa{position:fixed;z-index:35;left:calc(20px + env(safe-area-inset-left,0px));bottom:calc(20px + env(safe-area-inset-bottom,0px));width:60px;height:60px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 10px 30px #25d36670;animation:ping 2.2s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 #25d36690}70%{box-shadow:0 0 0 18px #25d36600}100%{box-shadow:0 0 0 0 #25d36600}}
+.dock{display:none}
+
+/* entrance: content is visible at rest; JS only adds a gentle lift */
+.lift{transition:transform .9s cubic-bezier(.2,.8,.2,1)}
+.lift.pre{transform:translateY(28px)}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;text-align:center;padding-top:36px}
+  .lede{margin-inline:auto}.ctas,.facts{justify-content:center}
+  .studio{padding:10px 30px 40px 0;max-width:460px;margin-inline:auto;width:100%}
+  .editor{transform:none}
+  .phone{width:120px;right:-10px;bottom:0}
+  .vs,.steps{grid-template-columns:1fr}
+  .side:not(.good){transform:scale(.96)}
+  .feats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .reels{padding-inline:calc(50% - 120px)}.reels .reel{flex-basis:240px}.navb.cue{left:calc(50% - 129px)}.navb.cue.back{left:calc(50% + 129px)}
+  .hcta{display:none}
+  .dock{display:block;position:fixed;inset:auto 0 0;z-index:34;background:#0b0d14f2;border-top:1px solid var(--edge);padding-top:10px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+  .dock .btn{width:100%;font-size:16px;padding:14px}
+  .dock{transition:transform .35s}.dock.away{transform:translateY(110%)}
+  .wa{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+}
+@media (max-width:520px){
+  .feats,.proof{grid-template-columns:1fr}
+  .c1,.c2{display:none}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.swap span:first-child,.scene:first-child{opacity:1}}
+</style>
+
+<div class="leak" aria-hidden="true"></div><div class="grain" aria-hidden="true"></div>
+
+<header><div class="wrap">
+  <div class="logo"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjIwIDggMTg2IDE2NiIgd2lkdGg9IjE4NiIgaGVpZ2h0PSIxNjYiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ1cCIgeDE9IjEyNCIgeTE9IjE0MCIgeDI9IjE2MCIgeTI9IjQ0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZjNmMWVjIi8+PHN0b3Agb2Zmc2V0PSIuNTUiIHN0b3AtY29sb3I9IiNmZjhhM2QiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZjRiM2UiLz48L2xpbmVhckdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJnbG93IiBjeD0iMTYwIiBjeT0iNDYiIHI9IjM0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmY0YjNlIiBzdG9wLW9wYWNpdHk9Ii41NSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmNGIzZSIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2E0MTU3IiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PHBhdGggZD0iTTMwIDU4VjM2aDIyTTMwIDE0MnYyMmgyMk0xNDggMTY0aDIydi0yMiIvPjwvZz4KICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSI0NiIgcj0iMzQiIGZpbGw9InVybCgjZ2xvdykiLz4KICA8cG9seWxpbmUgcG9pbnRzPSIxMjQsMTQwIDE1Niw1MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI3VwKSIgc3Ryb2tlLXdpZHRoPSIxOSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBvbHlsaW5lIHBvaW50cz0iNDIsNzQgNjYsMTQwIDk1LDk2IDEyNCwxNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2YzZjFlYyIgc3Ryb2tlLXdpZHRoPSIxOSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iMTYwIiBjeT0iNDQiIHI9IjE1IiBmaWxsPSIjZmY0YjNlIi8+Cjwvc3ZnPgo=" alt="" width="40" height="36"><b>Winning<span>.ma</span></b></div>
+  <a class="hcta" href="#offer" data-offer>عرض الأسعار</a>
+</div></header>
+
+<main>
+<div class="wrap hero">
+  <div>
+    <span class="recpill"><i></i>REC · LAUNCH OFFER</span>
+    <h1>فيديوهات إعلانية<br>كتجيب ليك <em>المبيعات</em></h1>
+    <p class="lede">للمنتج ديالك ولا للخدمة ديالك: كنكتبو السكريبت، كنلقاو أحسن اللقطات، وكنمونطيو ليك فيديو كيبيع. خبرة أكثر من 10,000 طلب حقيقي فالمغرب: هوك كيوقف السكرول فأول 3 ثواني، وصوت باللغة اللي تناسبك كيقنع.</p>
+    <div class="ctas">
+      <a class="btn" href="#offer" data-offer>3 فيديوهات بـ 299 درهم</a>
+      <a class="ghost" href="#anatomy">كيفاش كنبنيو الفيديو</a>
+    </div>
+    <div class="facts"><span><b>3</b> زوايا بيع فكل باقة</span><span><b><bdi dir="ltr">20–30</bdi></b> ثانية لكل فيديو</span><span><b>9:16</b> جاهز لريلز وتيك توك</span><span><b>4</b> لغات للصوت</span></div>
+  </div>
+
+  <div class="studio" aria-hidden="true">
+    <div class="editor">
+      <div class="ebar"><span class="dots"><i></i><i></i><i></i></span><span>bedwetting_ad_v1.mp4</span><span class="tc" id="tc">00:00:00:00</span></div>
+      <div class="viewer">
+        <video class="vfill" src="v1.mp4" muted loop playsinline autoplay preload="auto" aria-hidden="true"></video>
+        <video class="vmain" id="heroVid" src="v1.mp4" poster="v1.jpg" muted loop playsinline autoplay preload="auto"></video>
+        <span class="rend"><i></i>RENDERING</span>
+      </div>
+      <div class="tracks">
+        <div class="track t"><span style="flex:3">HOOK</span><span style="flex:19">SUBTITLES · DARIJA</span><span style="flex:5">CTA</span></div>
+        <div class="track v"><span style="flex:3">PROBLEM</span><span style="flex:4">BOX</span><span style="flex:9">DEMO</span><span style="flex:6">FEATURES</span><span style="flex:5">WIN</span></div>
+        <div class="track a"><span style="flex:27">VOICE · DARIJA</span></div>
+        <div class="head"></div>
+      </div>
+      <div class="ruler tc"><span>0s</span><span>7s</span><span>14s</span><span>21s</span><span>27s</span></div>
+    </div>
+    <div class="phone">
+      <video id="phoneVid" src="v1.mp4" muted loop playsinline autoplay preload="auto"></video>
+      <div class="bar"><i id="phoneBar"></i></div>
+    </div>
+    <div class="chip c1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffc24a" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg><span>3 زوايا بيع<b>A · B · C</b></span></div>
+    <div class="chip c2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ff4b3e" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>أول 3 ثواني<b>00:03</b></span></div>
+  </div>
+</div>
+
+<div class="marq" aria-label="منتجات وخدمات"><div class="marq-in"><b>كنخدمو مع</b><div class="mtrack"><span>متاجر الدفع عند الاستلام</span><span>الدروبشيبينغ</span><span>براندات الملابس</span><span>مستحضرات التجميل</span><span>العيادات والأطباء</span><span>المطاعم والمقاهي</span><span>العقار</span><span>مراكز التكوين</span><span>صالونات التجميل</span><span>الخدمات المنزلية</span><span>متاجر الدفع عند الاستلام</span><span>الدروبشيبينغ</span><span>براندات الملابس</span><span>مستحضرات التجميل</span><span>العيادات والأطباء</span><span>المطاعم والمقاهي</span><span>العقار</span><span>مراكز التكوين</span><span>صالونات التجميل</span><span>الخدمات المنزلية</span><span>متاجر الدفع عند الاستلام</span><span>الدروبشيبينغ</span><span>براندات الملابس</span><span>مستحضرات التجميل</span><span>العيادات والأطباء</span><span>المطاعم والمقاهي</span><span>العقار</span><span>مراكز التكوين</span><span>صالونات التجميل</span><span>الخدمات المنزلية</span><span>متاجر الدفع عند الاستلام</span><span>الدروبشيبينغ</span><span>براندات الملابس</span><span>مستحضرات التجميل</span><span>العيادات والأطباء</span><span>المطاعم والمقاهي</span><span>العقار</span><span>مراكز التكوين</span><span>صالونات التجميل</span><span>الخدمات المنزلية</span></div></div></div>
+
+<section id="anatomy"><div class="wrap">
+  <p class="eyebrow">ANATOMY OF A WINNING AD</p>
+  <h2 class="h2 lift">كل ثانية فالفيديو عندها خدمة</h2>
+  <p class="sub lift">ماشي مونتاج عشوائي. كل فيديو من 20 حتى 30 ثانية، مبني بهاد الطريقة باش يتحول المشاهد لزبون.</p>
+  <div class="anatomy lift">
+    <div class="atl">
+      <div class="seg seg1"><span class="tc">0s – 3s</span><h4>الهوك</h4><p>لقطة قوية كتوقف السكرول</p></div>
+      <div class="seg seg2"><span class="tc">3s – 8s</span><h4>المشكل</h4><p>الزبون كيشوف راسو فالمشكل</p></div>
+      <div class="seg seg3"><span class="tc">8s – 22s</span><h4>الحل والمميزات</h4><p>كنعرضو الحل ونشرحو المميزات ديال المنتج ولا الخدمة</p></div>
+      <div class="seg seg4"><span class="tc">22s – 30s</span><h4>النتيجة والطلب</h4><p>النتيجة، وسبب مقنع باش يطلب دابا</p></div>
+    </div>
+    <div class="ruler tc"><span>00:00</span><span>00:05</span><span>00:10</span><span>00:15</span><span>00:20</span><span>00:25</span><span>00:30</span></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">WHY ADS FAIL</p>
+  <h2 class="h2 lift">علاش الإعلان ديالك ما كيبيعش؟</h2>
+  <p class="sub lift">غالبا المشكل ماشي فالمنتج ولا فالميزانية. المشكل فالفيديو.</p>
+  <div class="vs">
+    <div class="side good lift"><span class="win-badge">WINNING VIDEO</span><h3>الفيديو الرابح</h3><p class="win-sub">هادا اللي كنصاوبو ليك</p><ul>
+      <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ff4b3e" stroke-width="3"><path d="M4 12l5 5L20 6"/></svg>هوك فأول 3 ثواني كيوقف السكرول</li>
+      <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ff4b3e" stroke-width="3"><path d="M4 12l5 5L20 6"/></svg>سكريبت مبني على زاوية بيع واضحة</li>
+      <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ff4b3e" stroke-width="3"><path d="M4 12l5 5L20 6"/></svg>صوت باللغة اللي كتناسب الزبون ديالك</li>
+      <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ff4b3e" stroke-width="3"><path d="M4 12l5 5L20 6"/></svg>3 زوايا مختلفة باش تعرف شنو كيبيع</li></ul></div>
+    <div class="side lift"><h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9097a8" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg>الفيديو العادي</h3><ul>
+      <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9097a8" stroke-width="3"><path d="M6 6l12 12M18 6L6 18"/></svg>كيبدا بالمنتج بلا هوك، والناس كيدوزو</li>
+      <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9097a8" stroke-width="3"><path d="M6 6l12 12M18 6L6 18"/></svg>مونتاج زوين ولكن بلا فكرة بيع</li>
+      <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9097a8" stroke-width="3"><path d="M6 6l12 12M18 6L6 18"/></svg>صوت ما كيشبهش للمغاربة</li>
+      <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9097a8" stroke-width="3"><path d="M6 6l12 12M18 6L6 18"/></svg>فيديو واحد، إلى ما خدمش ضاع كلشي</li></ul></div>
+  </div>
+</div></section>
+
+<section id="work"><div class="wrap">
+  <p class="eyebrow">OUR WORK</p>
+  <h2 class="h2 lift">نماذج من الفيديوهات ديالنا</h2>
+  <p class="sub lift">مرّر وشوف. كل باقة فيها 3 فيديوهات بهوك وزاوية مختلفة، باش تعرف شمن واحد كيجيب المبيعات.</p>
+  <div class="carousel lift">
+  <button class="navb prev cue back" type="button" aria-label="الفيديو السابق"><span class="ring"></span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg></button>
+  <div class="reels" id="reels">
+    <div class="reel"><video src="v1.mp4" poster="v1.jpg" muted loop playsinline preload="metadata"></video><span class="tag">زاوية المشكل</span><button class="snd" type="button" aria-label="شغّل الصوت"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9z" fill="#fff"/><path class="x" d="M17 9l5 6M22 9l-5 6"/><path class="w" d="M16.5 8.5a5 5 0 010 7M19 6a8.5 8.5 0 010 12" style="display:none"/></svg><span>شغّل الصوت</span></button></div>
+    <div class="reel"><video src="v3.mp4" poster="v3.jpg" muted loop playsinline preload="metadata"></video><span class="tag">شهادة زبون</span><button class="snd" type="button" aria-label="شغّل الصوت"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9z" fill="#fff"/><path class="x" d="M17 9l5 6M22 9l-5 6"/><path class="w" d="M16.5 8.5a5 5 0 010 7M19 6a8.5 8.5 0 010 12" style="display:none"/></svg><span>شغّل الصوت</span></button></div>
+    <div class="reel"><video src="v2.mp4" poster="v2.jpg" muted loop playsinline preload="metadata"></video><span class="tag">ديمو المنتج</span><button class="snd" type="button" aria-label="شغّل الصوت"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9z" fill="#fff"/><path class="x" d="M17 9l5 6M22 9l-5 6"/><path class="w" d="M16.5 8.5a5 5 0 010 7M19 6a8.5 8.5 0 010 12" style="display:none"/></svg><span>شغّل الصوت</span></button></div>
+  </div>
+  <button class="navb next cue" type="button" aria-label="الفيديو التالي"><span class="ring"></span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 6l-6 6 6 6"/></svg></button>
+  </div>
+  <div class="dots2" id="dots2"></div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">WHAT YOU GET</p>
+  <h2 class="h2 lift">شنو كتاخد مع Winning</h2>
+  <p class="sub lift">ما خاصك تصور والو: من السكريبت واللقطات حتى الملف النهائي.</p>
+  <div class="feats">
+    <div class="feat lift"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff4b3e" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5" fill="#ff4b3e"/></svg></div><h4>3 زوايا بيع</h4><p>كل فيديو بفكرة وهوك مختلف باش تعرف الرابح</p></div>
+    <div class="feat lift"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff4b3e" stroke-width="2"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13 7l4 4"/></svg></div><h4>سكريبت محترف</h4><p>مكتوب بطريقة الإعلانات اللي كتسكيلي</p></div>
+    <div class="feat lift"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff4b3e" stroke-width="2"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3"/></svg></div><h4>صوت باللغة اللي تناسبك</h4><p>الدارجة، الفصحى، الفرنسية ولا الإنجليزية، حسب الزبون ديالك</p></div>
+    <div class="feat lift"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff4b3e" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div><h4>جاهز للنشر</h4><p>مقاس 9:16 لفيسبوك وإنستغرام وتيك توك</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">HOW IT WORKS</p>
+  <h2 class="h2 lift">3 خطوات وصافي</h2>
+  <p class="sub lift">ما خاصك تدير والو، حنا كنتكلفو بكلشي.</p>
+  <div class="steps">
+    <div class="step lift"><span class="n">STEP 01</span><h4>صيفط المنتج ولا الخدمة</h4><p>صيفط لينا الرابط، التصاور ولا شرح الخدمة ديالك فواتساب</p></div>
+    <div class="step lift"><span class="n">STEP 02</span><h4>كنخدمو عليه</h4><p>كنكتبو 3 سكريبتات، كنلقاو أحسن اللقطات ديال المنتج، وكنمونطيو</p></div>
+    <div class="step lift"><span class="n">STEP 03</span><h4>كتوصلك الفيديوهات</h4><p>3 فيديوهات جاهزين، طلقهم وتبع المبيعات</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="proof">
+    <div class="lift"><strong data-c="10000" data-p="+">+10,000</strong>طلب حققناه بالإعلانات فالمغرب</div>
+    <div class="lift"><strong>3</strong>زوايا بيع فكل باقة</div>
+    <div class="lift"><strong>9:16</strong>جاهزين لكل المنصات</div>
+  </div>
+</div></section>
+
+<section id="offer"><div class="wrap">
+  <p class="eyebrow">LAUNCH OFFER</p>
+  <h2 class="h2 lift">العرض ديال الإطلاق</h2>
+  <p class="sub lift">ثمن خاص لأول الزبناء.</p>
+  <div class="ticket lift"><div class="tin">
+    <div class="lbl">PACK · 3 VIDEOS</div>
+    <div class="amt">299 <small>درهم</small></div>
+    <div class="per">3 فيديوهات إعلانية، يعني تقريبا 100 درهم للفيديو</div>
+    <ul class="incl">
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ff9a4a" stroke-width="3"><path d="M4 12l5 5L20 6"/></svg>3 فيديوهات بـ 3 زوايا بيع مختلفة</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ff9a4a" stroke-width="3"><path d="M4 12l5 5L20 6"/></svg>3 هوكات كتوقف السكرول فأول 3 ثواني</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ff9a4a" stroke-width="3"><path d="M4 12l5 5L20 6"/></svg>كل فيديو من 20 حتى 30 ثانية</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ff9a4a" stroke-width="3"><path d="M4 12l5 5L20 6"/></svg>سكريبت وصوت باللغة اللي بغيتي</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ff9a4a" stroke-width="3"><path d="M4 12l5 5L20 6"/></svg>ترجمة على الشاشة ومونتاج احترافي</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ff9a4a" stroke-width="3"><path d="M4 12l5 5L20 6"/></svg>تعديل واحد لكل فيديو</li>
+    </ul>
+    <div class="langs">
+      <p class="lt">اختار اللغة اللي تناسبك</p>
+      <div class="lrow"><span>الدارجة المغربية</span><span>العربية الفصحى</span><span>Français</span><span>English</span></div>
+    </div>
+    <a class="btn warm full" href="#" data-wa>اطلب عبر واتساب</a>
+    <p class="note">هاد الثمن غير لأول <b>20</b> زبون</p>
+  </div></div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">FAQ</p>
+  <h2 class="h2 lift">أسئلة كتطرح بزاف</h2>
+  <div class="faq" style="margin-top:36px">
+    <details><summary>شحال كياخد الوقت باش توصلني الفيديوهات؟</summary><p>كتوصلك الفيديوهات فوقت قصير من بعد ما تصيفط لينا المعلومات ديال المنتج.</p></details>
+    <details><summary>واش كتصاوبو فيديوهات للخدمات حتى هي؟</summary><p>إيه، ماشي غير للمنتجات. كنصاوبو فيديوهات إعلانية للخدمات بحال العيادات، المطاعم، العقار، مراكز التكوين وصالونات التجميل.</p></details>
+    <details><summary>واش خاصني نصيفط ليكم المنتج؟</summary><p>لا، كافي تصيفط الرابط ولا التصاور ديال المنتج فواتساب، وحنا كنتكلفو بالباقي.</p></details>
+    <details><summary>إلى ما عجبنيش فيديو؟</summary><p>عندك تعديل واحد لكل فيديو، كنبدلو ليك فيه داكشي اللي بغيتي.</p></details>
+    <details><summary>واش الفيديوهات كتخدم فتيك توك وإنستغرام؟</summary><p>إيه، الفيديوهات عموديين 9:16 وجاهزين لفيسبوك وإنستغرام وتيك توك.</p></details>
+    <details><summary>كيفاش نخلص؟</summary><p>تواصل معانا فواتساب ونعطيوك طرق الدفع المتوفرة.</p></details>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="final lift">
+    <h2 class="h2">المنتج ولا الخدمة ديالك كيستاهلو فيديو كيبيع</h2>
+    <p class="sub">صيفط لينا المنتج ولا الخدمة دابا، والفيديوهات توصلك قريب.</p>
+    <a class="btn" href="#" data-wa>ابدا دابا بـ 299 درهم</a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Winning.ma · جميع الحقوق محفوظة</div></footer>
+
+<a class="wa" href="#" data-wa aria-label="واتساب"><svg width="30" height="30" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.4-.9-2.8-1.2-4.6-4-4.8-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.4 1.8 2.2 1.2 1.1 2.2 1.4 2.5 1.6.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.3.1.2.1.7-.1 1.3z"/></svg></a>
+<div class="dock"><a class="btn" href="#offer" data-offer>عرض الأسعار</a></div>
+
+<script>
+/* === غيّر رقم الواتساب هنا فقط === */
+const WA_NUMBER = "212600000000";
+const WA_TEXT = "السلام، بغيت باقة 3 فيديوهات بـ 299 درهم";
+function waLink(){return "https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(WA_TEXT)}
+function setWa(){document.querySelectorAll("[data-wa]").forEach(a=>{a.href=waLink();a.target="_blank";a.rel="noopener"})}
+setWa();
+const offer=document.getElementById("offer");
+document.querySelectorAll("[data-offer]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();
+  offer.scrollIntoView({behavior:"smooth",block:"start"});
+  setTimeout(()=>{offer.classList.remove("flash");void offer.offsetWidth;offer.classList.add("flash")},550)}));
+const dock=document.querySelector(".dock");
+new IntersectionObserver(es=>dock.classList.toggle("away",es[0].isIntersecting),{threshold:.25}).observe(offer);
+
+/* work carousel: swipe like Reels; the centred video plays, others pause.
+   Sound starts by itself when the browser allows it (after any tap on the page); otherwise the first tap turns it on. */
+const track=document.getElementById("reels"),slides=[...track.querySelectorAll(".reel")],vids=slides.map(s=>s.querySelector("video"));
+const dotsBox=document.getElementById("dots2"),prevB=document.querySelector(".navb.prev"),nextB=document.querySelector(".navb.next");
+let cur=-1,userOff=false,gestured=false,inView=false;
+slides.forEach((s,i)=>{const d=document.createElement("button");d.type="button";d.setAttribute("aria-label","فيديو "+(i+1));d.onclick=()=>go(i);dotsBox.appendChild(d)});
+const dots=[...dotsBox.children];
+function go(i){i=Math.max(0,Math.min(slides.length-1,i));const s=slides[i],tr=track.getBoundingClientRect(),sr=s.getBoundingClientRect();
+  track.scrollBy({left:(sr.left+sr.width/2)-(tr.left+tr.width/2),behavior:"smooth"})}
+prevB.onclick=()=>go(cur-1);nextB.onclick=()=>go(cur+1);
+function ui(v){const b=v.parentElement.querySelector(".snd"),on=!v.muted;
+  b.classList.toggle("on",on);b.querySelector(".x").style.display=on?"none":"";b.querySelector(".w").style.display=on?"":"none";
+  b.lastElementChild.textContent=on?"وقّف الصوت":"شغّل الصوت"}
+function playCur(fromStart){const v=vids[cur];if(!v)return;
+  vids.forEach(o=>{if(o!==v){o.pause();o.muted=true;ui(o)}});
+  if(!inView){v.pause();return}
+  if(fromStart)v.currentTime=0;
+  v.muted=userOff;const p=v.play();
+  if(p&&p.catch)p.catch(()=>{v.muted=true;v.play().catch(()=>{});ui(v)});ui(v)}
+function pick(){const mid=track.getBoundingClientRect().left+track.clientWidth/2;let best=0,bd=1e9;
+  slides.forEach((s,i)=>{const r=s.getBoundingClientRect(),d=Math.abs(r.left+r.width/2-mid);if(d<bd){bd=d;best=i}});
+  if(best!==cur){cur=best;slides.forEach((s,i)=>s.classList.toggle("cur",i===cur));dots.forEach((d,i)=>d.classList.toggle("cur",i===cur));
+    prevB.disabled=cur===0;nextB.disabled=cur===slides.length-1;playCur(true)}}
+let raf;track.addEventListener("scroll",()=>{cancelAnimationFrame(raf);raf=requestAnimationFrame(pick)},{passive:true});
+new IntersectionObserver(es=>{inView=es[0].isIntersecting;playCur(inView)},{threshold:.5}).observe(track);
+["pointerdown","keydown","touchend"].forEach(t=>document.addEventListener(t,e=>{
+  if(gestured)return;gestured=true;if(inView&&!userOff&&!e.target.closest(".snd"))playCur(false)},{passive:true}));
+slides.forEach((s,i)=>{
+  s.querySelector(".snd").addEventListener("click",e=>{e.stopPropagation();const v=vids[i];
+    if(i!==cur){go(i);return}userOff=!v.muted;playCur(false)});
+  s.addEventListener("click",()=>{if(i!==cur)go(i);else s.querySelector(".snd").click()})});
+pick();
+addEventListener("resize",()=>go(cur));
+
+/* hero editor: playhead, timecode and phone progress follow the real video */
+const hv=document.getElementById("heroVid"),fill=document.querySelector(".viewer .vfill"),pv=document.getElementById("phoneVid"),
+      head=document.querySelector(".head"),tc=document.getElementById("tc"),pbar=document.getElementById("phoneBar");
+function tick(){const d=hv.duration||27.5,t=hv.currentTime||0,pct=(t/d*100)+"%";
+  head.style.left=pct;pbar.style.width=pct;
+  const s=Math.floor(t),fr=Math.floor((t-s)*30);tc.textContent="00:00:"+String(s).padStart(2,"0")+":"+String(fr).padStart(2,"0");
+  if(Math.abs(fill.currentTime-t)>.3)fill.currentTime=t;
+  if(Math.abs(pv.currentTime-t)>.3)pv.currentTime=t;
+  requestAnimationFrame(tick)}
+[hv,fill,pv].forEach(v=>v.play().catch(()=>{}));
+requestAnimationFrame(tick);
+
+/* gentle lift for blocks below the fold (content stays visible) */
+const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+if(!reduce&&"IntersectionObserver" in window){
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.remove("pre");io.unobserve(e.target)}}),{threshold:.1});
+  document.querySelectorAll(".lift").forEach((el,i)=>{
+    if(el.getBoundingClientRect().top>innerHeight){el.classList.add("pre");el.style.transitionDelay=(i%4)*70+"ms";io.observe(el)}
+  });
+}
+</script>
