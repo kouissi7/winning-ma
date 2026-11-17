@@ -496,7 +496,7 @@ footer{text-align:center;color:var(--mute);font-size:14px;padding-block:36px 120
 const WA_NUMBER = "212782825153";
 const WA_TEXT = "السلام، بغيت باقة 3 فيديوهات بـ 299 درهم";
 function waLink(){return "https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(WA_TEXT)}
-function setWa(){document.querySelectorAll("[data-wa]").forEach(a=>{a.href=waLink();a.target="_blank";a.rel="noopener";a.addEventListener("click",()=>{try{fbq("track","Contact",{content_name:"Winning.ma WhatsApp"})}catch(e){}})})}
+function setWa(){document.querySelectorAll("[data-wa]").forEach(a=>{a.href=waLink();a.target="_blank";a.rel="noopener";a.addEventListener("click",()=>{try{fbq("track","Contact",{content_name:"Winning.ma WhatsApp"});fbq("track","Purchase",{value:299,currency:"MAD",content_name:"Winning.ma 3 videos"})}catch(e){}})})}
 setWa();
 const offer=document.getElementById("offer");
 document.querySelectorAll("[data-offer]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();
